@@ -19,24 +19,43 @@ export default function MangaList() {
 
 
   return (
-    <div className='grid grid-cols-2 gap-10 content-center my-80 mx-80'>
+    <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-10 mt-10 md:gap-1 lg:gap-5'>
   
       {/* this is card elements */}
+      
       <Card>
-          <p className='text-black' >anjay</p>
+        <p className='text-blue-900'>ngews</p>
       </Card>
-
       <Card>
-          <p className='text-black' >anjay</p>
+        <p className='text-blue-900'>ngews</p>
       </Card>
-
       <Card>
-          <p className='text-black' >anjay</p>
+        <p className='text-blue-900'>ngews</p>
+      </Card><Card>
+        <p className='text-blue-900'>ngews</p>
       </Card>
-
       <Card>
-      <p className='text-black' >anjay</p>
+        <p className='text-blue-900'>ngews</p>
       </Card>
+      <Card>
+        <p className='text-blue-900'>ngews</p>
+      </Card>
+      <Card>
+        <p className='text-blue-900'>ngews</p>
+      </Card><Card>
+        <p className='text-blue-900'>ngews</p>
+      </Card><Card>
+        <p className='text-blue-900'>ngews</p>
+      </Card>
+      <Card>
+        <p className='text-blue-900'>ngews</p>
+      </Card>
+      <Card>
+        <p className='text-blue-900'>ngews</p>
+      </Card><Card>
+        <p className='text-blue-900'>ngews</p>
+      </Card>
+      {/* card ends*/}
 
     </div>
   )

@@ -19,75 +19,21 @@ export default function Favorite() {
 
 
   return (
-    <div className='flex gap-10 justify-center mt-10 flex-wrap'>
-  
-    {/* this is card elements */}
-      <Card>
-          <div className='grid grid-cols-1 justify-between gap-1'>
-            <div className='border-solid bg-black w-5 h-5'></div>
-            <p className='text-black' >anjay</p>
-          </div>
+    <div className='flex gap-5 justify-center flex-wrap'>
+      {/* this is card elements */}
+      <Card className=''>
+        <p className='text-black'>Makan Pagi</p>
       </Card>
-
-      <Card>
-          <p className='text-black' >anjay</p>
+      <Card className=''>
+        <p className='text-black'>Makan Pagi</p>
       </Card>
-
-      <Card>
-          <p className='text-black' >anjay</p>
+      <Card className=''>
+        <p className='text-black'>Makan Pagi</p>
       </Card>
-
-      <Card>
-      <p className='text-black' >anjay</p>
+      <Card className=''>
+        <p className='text-black'>Makan Pagi</p>
       </Card>
-
-      <Card>
-          <p className='text-black' >anjay</p>
-      </Card>
-
-      <Card>
-          <p className='text-black' >anjay</p>
-      </Card>
-
-      <Card>
-          <p className='text-black' >anjay</p>
-      </Card>
-
-      <Card>
-      <p className='text-black' >anjay</p>
-      </Card>
-      <Card>
-          <p className='text-black' >anjay</p>
-      </Card>
-
-      <Card>
-          <p className='text-black' >anjay</p>
-      </Card>
-
-      <Card>
-          <p className='text-black' >anjay</p>
-      </Card>
-
-      <Card>
-      <p className='text-black' >anjay</p>
-      </Card>
-
-      <Card>
-          <p className='text-black' >anjay</p>
-      </Card>
-
-      <Card>
-          <p className='text-black' >anjay</p>
-      </Card>
-
-      <Card>
-          <p className='text-black' >anjay</p>
-      </Card>
-
-      <Card>
-      <p className='text-black' >anjay</p>
-      </Card>
-
+      {/* card elements end*/}
     </div>
   )
 }
